@@ -1,4 +1,4 @@
-# 🚀 Agentic-AI
+# Agentic-AI
 
 Hands-on implementation of **Agentic AI systems** including RAG, Multi-Agent workflows, LangGraph orchestration, Langflow pipelines, Vector Databases, and end-to-end AI applications.
 
