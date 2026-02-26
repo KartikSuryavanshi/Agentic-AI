@@ -1,21 +1,22 @@
-# Agentic-AI
+# 🚀 Agentic-AI
 
-Hands-on implementation of **Agentic AI systems** including RAG, Multi-Agent workflows, LangGraph orchestration, Langflow pipelines, Vector Databases, and end-to-end AI applications.
+Hands-on implementation of **Agentic AI systems** including RAG, Multi-Agent workflows, LangGraph orchestration, CrewAI collaboration systems, Hugging Face SmolAgents, Langflow pipelines, Vector Databases, and end-to-end AI applications.
 
 ---
 
 ## 📌 About This Repository
 
-This repository contains practical implementations of modern **Agentic AI architectures**, where LLMs move beyond simple chatbots and become decision-making systems capable of:
+This repository contains practical implementations of modern **Agentic AI architectures**, where LLMs move beyond simple chatbots and become autonomous decision-making systems capable of:
 
-- Tool usage  
-- Multi-step reasoning  
-- Workflow orchestration  
-- Retrieval-Augmented Generation (RAG)  
-- Multi-Agent collaboration  
-- Memory integration  
+- 🛠 Tool usage  
+- 🧠 Multi-step reasoning  
+- 🔄 Workflow orchestration  
+- 📚 Retrieval-Augmented Generation (RAG)  
+- 🤝 Multi-Agent collaboration  
+- 🗂 Memory integration  
+- ⚡ Autonomous task execution  
 
-The focus is on building production-style AI systems.
+The focus is on building **production-style AI systems**.
 
 ---
 
@@ -24,6 +25,8 @@ The focus is on building production-style AI systems.
 - **LangChain** – LLM orchestration & chaining  
 - **LangGraph** – Stateful multi-agent workflow orchestration  
 - **Langflow** – Visual pipeline builder  
+- **CrewAI** – Multi-agent collaboration framework  
+- **Hugging Face SmolAgents** – Lightweight autonomous agents  
 - **Phidata** – Agent framework  
 - **Google Gemini** – LLM provider  
 - **DataStax Astra DB** – Cloud vector database  
@@ -32,17 +35,50 @@ The focus is on building production-style AI systems.
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-### 1️⃣ 1-BasicAgents
+---
+
+## 1️⃣ 1-BasicAgents
 - Creating first AI agent  
 - Tool calling  
 - Prompt engineering  
 - Memory handling  
+- Structured outputs  
 
 ---
 
-### 2️⃣ Financial AI Agent
+## 2️⃣ smolagent_from_huggingface.ipynb
+
+Implementation of lightweight autonomous agents using **Hugging Face SmolAgents**.
+
+### Covered:
+- Creating autonomous agents  
+- Tool integration  
+- Task planning  
+- Reasoning loops  
+- Action execution cycle  
+
+Focus: Minimal but powerful agent design.
+
+---
+
+## 3️⃣ CrewAI Multi-Agent System
+
+Implementation of collaborative AI agents using **CrewAI**.
+
+### Concepts Covered:
+- Role-based agents (Researcher, Writer, Analyst, etc.)  
+- Task delegation  
+- Agent-to-agent communication  
+- Sequential & hierarchical workflows  
+- Collaborative problem solving  
+
+Focus: Real-world multi-agent orchestration.
+
+---
+
+## 4️⃣ Financial AI Agent
 Agent capable of:
 - Financial reasoning  
 - Structured analysis  
@@ -55,7 +91,7 @@ Built using:
 
 ---
 
-### 3️⃣ Multi-Agent RAG With Vector Database
+## 5️⃣ Multi-Agent RAG With Vector Database
 - Document ingestion  
 - Text chunking  
 - Embedding generation  
@@ -70,7 +106,7 @@ Built using:
 
 ---
 
-### 4️⃣ Video Summarizer Agent
+## 6️⃣ Video Summarizer Agent
 - Extracts video transcript  
 - Performs chunking  
 - Applies summarization chain  
@@ -82,7 +118,7 @@ Built using:
 
 ---
 
-### 5️⃣ 📄 PDF Assistant (RAG-Based PDF Summarizer)
+## 7️⃣ 📄 PDF Assistant (RAG-Based PDF Summarizer)
 
 An intelligent document assistant that can:
 
@@ -94,7 +130,7 @@ An intelligent document assistant that can:
 - Answer questions from PDF  
 - Generate document summaries  
 
-Architecture Flow:
+### Architecture Flow
 
 PDF → Text Extraction → Chunking → Embeddings → Vector DB → Retriever → LLM → Answer  
 
@@ -105,15 +141,17 @@ Built using:
 
 ---
 
-## 🔄 Langflow Integration
+# 🔄 Langflow Integration
 
 This repository also explores **Langflow** for visually building Agentic AI systems.
 
-### What is Langflow?
+## What is Langflow?
 
 Langflow is a drag-and-drop interface built on top of LangChain that allows you to design and test LLM pipelines without heavy coding.
 
-### Example RAG Flow
+---
+
+### 🧩 Example RAG Flow
 
 User Query  
 ↓  
@@ -127,11 +165,25 @@ LLM
 ↓  
 Final Answer  
 
-### Example Agent Flow
+---
 
-User → Agent → Tool Selection → Tool Execution → LLM → Final Output  
+### 🤖 Example Agent Flow
 
-### Why Langflow?
+User  
+↓  
+Agent  
+↓  
+Tool Selection  
+↓  
+Tool Execution  
+↓  
+LLM Reasoning  
+↓  
+Final Output  
+
+---
+
+## 🎯 Why Langflow?
 
 - Rapid prototyping  
 - Visual debugging  
@@ -141,14 +193,15 @@ User → Agent → Tool Selection → Tool Execution → LLM → Final Output
 
 ---
 
-## 🧠 Concepts Covered
+# 🧠 Concepts Covered
 
-- Prompt Engineering  
 - RAG (Retrieval-Augmented Generation)  
 - Embeddings  
 - Vector Databases  
 - Tool Calling Agents  
+- Autonomous Agents  
 - Multi-Agent Systems  
+- Role-Based Agent Collaboration  
 - Workflow Orchestration (LangGraph)  
 - Visual AI Pipeline Design (Langflow)  
-- End-to-end AI system design  
+- End-to-end AI system architecture  
